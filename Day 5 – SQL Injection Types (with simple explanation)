@@ -1,0 +1,109 @@
+# 🔥 Day 5 – SQL Injection Types (Simple Explanation)
+
+👋 Aaj hum SQL Injection ke **main types** seekhenge — bilkul **easy language** me, beginner-friendly 💙
+
+---
+
+## 🧨 SQL Injection ke Types kyu samajhna zaroori hai?
+Kyuki:
+- 🐞 Har website ek hi tarah se vulnerable nahi hoti
+- 🧠 Bug bounty me **right technique** choose karni hoti hai
+- 📄 Report likhne me clear idea milta hai
+
+---
+
+## 1️⃣ Classic / In-Band SQL Injection
+👉 Sabse **simple aur common** type.
+
+### 🔍 Kya hota hai?
+- Website **error ya data directly show** karti hai
+- Attacker ko output turant mil jata hai
+
+### 📌 Example scenario:
+- Login form
+- Search box
+- URL parameters
+
+✅ Beginner ke liye best type to understand
+
+---
+
+## 2️⃣ Error-Based SQL Injection
+👉 Jab website **database errors show karti hai**.
+
+### 🔍 Kya hota hai?
+- SQL error message se database info leak hoti hai
+- Table name, column name pata chal sakta hai
+
+### ⚠️ Kab possible hota hai?
+- Jab error handling weak hoti hai
+- Developer ne errors hide nahi kiye hote
+
+---
+
+## 3️⃣ Blind SQL Injection
+👉 Output **directly nahi milta**, but vulnerability hoti hai 😈
+
+### 🔍 Kya hota hai?
+- Website data show nahi karti
+- Attacker **true / false response** se guess karta hai
+
+### 📌 Example:
+- Page load hota hai ya nahi
+- Response change hota hai ya same rehta hai
+
+🧠 Thoda slow, but powerful technique
+
+---
+
+## 4️⃣ Time-Based Blind SQL Injection
+👉 Blind SQLi ka advanced version ⏱️
+
+### 🔍 Kya hota hai?
+- Attacker time delay se data guess karta hai
+- Agar page late load ho → condition true
+
+### ⚠️ Kab use hota hai?
+- Jab:
+  - No error
+  - No output
+  - No visible response difference
+
+💥 Bug bounty me kaafi valuable hota hai
+
+---
+
+## 5️⃣ Union-Based SQL Injection
+👉 SQL `UNION` keyword ka misuse.
+
+### 🔍 Kya hota hai?
+- Do queries ka result combine hota hai
+- Attacker apna data inject kar deta hai
+
+### 📌 Kab kaam karta hai?
+- Jab:
+  - Same number of columns ho
+  - Data type compatible ho
+
+🔥 Agar mil gaya to **goldmine** 🪙
+
+---
+
+## 🛡️ Defensive Point (Yaad Rakho)
+Developers SQLi se bachne ke liye:
+- ✅ Prepared Statements
+- ✅ Parameterized Queries
+- ✅ Input Validation
+- ✅ Least Privilege DB access
+
+---
+
+## 📌 Key Takeaway
+> Har SQL Injection same nahi hota — situation ke hisaab se type change hota hai.
+
+---
+
+
+
+🧑‍💻 Maintained by: **Arnav**  
+⭐ Learning daily = winning daily
