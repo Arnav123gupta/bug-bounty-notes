@@ -83,3 +83,54 @@ api.target.com  -> API
 admin.target.com -> Admin Panel
 staging.target.com -> Staging
 blog.target.com -> Blog
+
+🐞 Bug Types You Can Find on Subdomains
+
+Subdomains par common bugs:
+
+🔓 Broken Access Control
+
+🆔 IDOR
+
+🐞 XSS
+
+⚙️ Misconfigurations
+
+📂 Sensitive info exposure
+
+🔑 Weak authentication / default creds (only legal scope)
+
+💡 Pro Tip (Simple but Powerful)
+
+Subdomain milne ke baad direct hacking mat start karo.
+
+First do:
+
+Open it in browser
+
+Understand feature
+
+Map endpoints
+
+Identify inputs
+
+Then test
+
+“Understand first → test later” = pro rule 😎
+
+⚠️ Legal Reminder
+
+❌ Out-of-scope subdomains test mat karo
+✅ Only allowed scope me hi test karo
+
+📌 Key Takeaway
+
+Subdomains increase attack surface,
+aur attack surface badhega = bug chances badhenge 📈🔥
+
+🚀 Next Day Preview
+
+➡️ Day 10 – Parameter Hunting Basics (Beginner Friendly) 🎯
+
+🧑‍💻 Maintained by: Arnav
+⭐ Daily commits = strong profile 💚
