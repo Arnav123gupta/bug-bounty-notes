@@ -96,3 +96,35 @@ Example format:
 /search?q=
 /product?id=
 /profile?user=
+
+🐞 Bug Bounty Tip (Gold) 💡
+
+Recon ke baad direct “sab kuch test” mat karo.
+
+✅ Pick 1 feature
+✅ Deep test karo
+Example:
+
+Password reset flow
+
+File upload
+
+Search feature
+
+Deep testing = more real bugs 🔥
+
+⚠️ Legal Reminder
+
+❌ Random websites test mat karo
+✅ Sirf allowed scope & labs me practice karo
+
+📌 Key Takeaway
+
+Recon jitna strong hoga, bugs utne jaldi milenge.
+
+🚀 Next Day Preview
+
+➡️ Day 9 – Subdomain Basics + Attack Surface Thinking 🌐
+
+🧑‍💻 Maintained by: Arnav
+⭐ Daily 1 commit = strong GitHub profile 💚
