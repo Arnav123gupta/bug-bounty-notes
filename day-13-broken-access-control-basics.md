@@ -75,16 +75,18 @@ API request me role change possible:
 {
   "role": "admin"
 }
-🧪 BAC Testing Mindset
 
-Testing ke waqt poochho:
+
+###🧪 BAC Testing Mindset
+
+##Testing ke waqt poochho:
 
 ✅ Kya normal user admin page dekh sakta hai?
 ✅ Kya restricted URL manually open ho raha hai?
 ✅ Kya user dusre ka data edit kar sakta hai?
 ✅ Kya role change possible hai?
 
-🔥 Real World BAC Examples
+###🔥 Real World BAC Examples
 
 User apna price change kar pa raha hai
 
@@ -94,9 +96,9 @@ Role change karke admin access mil gaya
 
 Restricted APIs access ho rahi hain
 
-💥 Ye bugs companies ke liye serious risk hote hain.
+###💥 Ye bugs companies ke liye serious risk hote hain.
 
-🛡️ Developers BAC kaise prevent karte hain?
+##🛡️ Developers BAC kaise prevent karte hain?
 
 ✅ Server-side authorization checks
 
@@ -108,12 +110,12 @@ Restricted APIs access ho rahi hain
 
 ✅ Client-side validation par trust na karna
 
-📌 Key Takeaway
+##📌 Key Takeaway
 
 Broken Access Control = system permissions fail
 User unauthorized actions kar paata hai 🔓
 
-🚀 Next Day Preview
+##🚀 Next Day Preview
 
 ➡️ Day 14 – Authentication vs Authorization (Easy Guide) 🔐🧠
 
